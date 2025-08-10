@@ -1,4 +1,4 @@
-export const API_URL = (import.meta as any).env?.VITE_API_URL || "http://localhost:4000/api"
+export const API_URL = "https://pixel-tvo8.onrender.com/api"
 
 function getToken() {
   try {
